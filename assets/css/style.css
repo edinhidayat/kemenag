@@ -1,0 +1,103 @@
+:root {
+    --OpenSans: "Open Sans", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+    --Poppins: "Poppins", sans-serif;
+}
+
+/* Global Colors */
+:root {
+    --Warna-Putih: #ffffff;
+    --Warna-Hitam: #111111;
+    --accent-color: #e5a90d;
+    --Warna-BiruMuda: #365072;
+}
+
+/* HALAMAN BERANDA */
+.card.kartu-isi {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    border: 0;
+}
+
+/* CAROUSEL */
+.carousel-judul {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.carousel-judul p {
+    font-family: "Poppins", sans-serif;
+    font-size: 9pt;
+}
+
+/* INFORMASI */
+.card .card-body a.gb-informasi {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #365072;
+}
+
+.card .card-body a.gb-informasi:hover {
+    color: #e5a90d;
+}
+
+p.text-rapat {
+    font-family: var(--Roboto);
+    line-height: 1.2;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kotak-galeri {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+    .kotak-galeri {
+        height: 600px;
+    }
+}
+
+/* BERITA */
+div.kotak-gambar {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    float: left;
+    margin-right: 1rem;
+}
+
+img.gb-berita {
+    width: 8rem;
+}
+
+p.judul-berita {
+    font-family: var(--Roboto);
+    font-size: 10pt;
+    font-weight: bold;
+    color: #365072;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+a p.judul-berita:hover {
+    color: #e5a90d;
+}
+
+hr.berita {
+    border: 1px dotted grey;
+}
